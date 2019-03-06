@@ -1,0 +1,13 @@
+# Dist
+/lib
+
+# Temp
+/.tmp/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Cache
+.rpt2_cache
