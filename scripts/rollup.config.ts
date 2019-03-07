@@ -4,7 +4,6 @@
 
 import { resolve as resolvePath } from 'path';
 import { RollupOptions } from 'rollup';
-import rollupPluginBabel from 'rollup-plugin-babel';
 import rollupPluginTypescript from 'rollup-plugin-typescript2';
 
 const entryFileNamesPattern = '[name]';
@@ -82,9 +81,6 @@ function getConfigCjs(input: string): RollupOptions {
             declaration: false  // declarations are handled by jsConfigEsm.
           }
         }
-      }),
-      rollupPluginBabel({
-        extensions: ['.js', '.mjs', '.ts']
       })
     ]
   };
