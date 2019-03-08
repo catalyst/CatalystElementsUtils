@@ -1,6 +1,6 @@
 {
   "name": "@catalyst-elements/utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility functions for the catalyst elements and other such components.",
   "homepage": "https://github.com/catalyst/CatalystElementsUtils#readme",
   "bugs": {
